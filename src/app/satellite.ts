@@ -16,10 +16,8 @@ export class Satellite {
 	
 	isSpaceDebris(): boolean {
 		if(this.type == "Space Debris"){
-			console.log("space debris function is running and status is true")
 			return true;
 		} else {
-			console.log("space debris function is running and status is false")
 			return false;
 		}
    }
